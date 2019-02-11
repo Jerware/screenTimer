@@ -1,6 +1,9 @@
 # ScreenTimer
 Internet-connected timer for "screen time"
 
+![Image of ScreenTimer](https://github.com/Jerware/screenTimer/blob/master/images/screenTimer_small.jpg)
+
+
 This timer will send events to the cloud when it is paused, reset, or finished. Settings & controls are accessed via phone app or 
 secure web. You can tap into events using [IFTT](https://ifttt.com/discover) to send emails, text messages, turn on/off lights, or 
 a myriad of other actions. You can also have the ScreenTimer itself control the power supply to electronincs like lights or, 
