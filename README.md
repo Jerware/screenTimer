@@ -5,7 +5,7 @@ Internet-connected timer for "screen time"
 
 
 This timer will send events to the cloud when it is paused, reset, or finished. Settings & controls are accessed via phone app or 
-secure web. You can tap into events using [IFTT](https://ifttt.com/discover) to send emails, text messages, turn on/off lights, or 
+secure web. You can tap into events using [IFTTT](https://ifttt.com/discover) to send emails, text messages, turn on/off lights, or 
 a myriad of other actions. You can also have the ScreenTimer itself control the power supply to electronincs like lights or, 
 more deviously, game consoles, televisions, or monitors.
 
@@ -31,7 +31,7 @@ Using wires, connect ground and signal to the device's microcontroller input ter
 the back of the ScreenTimer PCB. You'll see 8 pads -- the ones next to the Photon D2-D5 pins are the signal pins. The other four are all
 ground. The effects of each pin are as follows.
 
-* D2: Normally HIGH, LOW when timer paused or expired
+* D2: Normally HIGH, LOW when timer expired or paused
 * D3: Normally HIGH, LOW when timer expired
-* D4: Normally LOW, HIGH when timer paused or expired
+* D4: Normally LOW, HIGH when timer expired or paused
 * D5: Normally LOW, HIGH when timer expired
